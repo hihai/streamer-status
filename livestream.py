@@ -46,7 +46,7 @@ def choose_streamer(streamer, details):
     """choose th streamer by number"""
     
     if not streamer:
-        print "no one online"
+        sys.stdout.write("no one online")
     else:
         for k,v in details.iteritems():
             print "[%s] %s %s" %(streamer[k], k, v)
