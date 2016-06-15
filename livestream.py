@@ -54,7 +54,7 @@ def choose_streamer(streamer, details):
         choice = input("choose the streamer by the number: ")
         key = filter(lambda k: streamer[k] == choice, streamer.keys())
 
-    start_livestreamer(streamer, key[0])
+        start_livestreamer(streamer, key[0])
 
 
 link = "https://api.twitch.tv/kraken/streams/%s"
